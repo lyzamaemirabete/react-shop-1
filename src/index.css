@@ -4,5 +4,58 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Oxygen", sans-serif;
+}
+.App {
+  display: flex;
+  height: 100vh;
+}
+.cart {
+  flex: 1;
+  padding-left: 20px;
+  background-color: black;
+  color: white;
+}
+.products {
+  padding-left: 20px;
+  flex: 1;
+}
+button {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+}
+h1,
+h2 {
+  border-left: 10px solid black;
+  padding-left: 5px;
+}
+.product {
+  display: flex;
+  margin: 20px;
+}
+.productInfo {
+  margin-left: 10px;
+}
+.inputDiv {
+  display: flex;
+  flex-direction: row;
+}
+.address {
+  margin-right: 20px;
+}
+.inputDiv,
+.checkoutBtn {
+  margin-left: 20px;
+}
+.checkoutBtn {
+  margin-top: 10px;
+}
+.creditCard,
+.address {
+  width: 250px;
+  height: 25px;
 }
